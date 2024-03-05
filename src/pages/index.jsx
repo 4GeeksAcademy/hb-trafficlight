@@ -3,8 +3,12 @@ import { Jumbotron } from "@/components/Jumbotron";
 
 export default function Home() {
   return (
-    <Container>
-      <Jumbotron />
-    </Container>
-  );
+    <div class="container">
+  <div class="red"></div>
+  <div class="yellow"></div>
+  <div class="green"></div>
+</div> 
+    
+ );
 }
+
