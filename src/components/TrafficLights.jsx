@@ -28,3 +28,5 @@ export function TrafficLight() {
         </div>
     );
 }
+
+ReactDOM.render(<TrafficLight />, document.querySelector('#app'));
