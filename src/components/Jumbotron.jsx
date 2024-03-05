@@ -8,9 +8,8 @@ export function Jumbotron({ onClick }) {
         <p>
           
         </p>
-        <Button variant="primary" onClick={onClick}>
-          CTA
-        </Button>
+        <Button className="handleClickRed" onClick={() => {alert("Click");}}></Button>
+       
       </Col>
     </Row>
   );
